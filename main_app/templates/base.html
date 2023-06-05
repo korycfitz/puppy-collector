@@ -1,5 +1,3 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +7,9 @@
   <link
     rel="shortcut icon"
     type="image/png"
-    href="{% static 'images/splash.svg' %}"
+    href=""
   >
   <title>Puppy Collector</title>
-  <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
   {% block head %}
   {% endblock %}
 </head>
@@ -21,25 +18,14 @@
     <div class="header-logo-container">
       <a href="/">
         <img 
-          src="{% static 'images/header-logo.svg' %}"
-          alt="The Cat Collector Logo"
+          src=""
+          alt="The Puppy Collector Logo"
         >
       </a>
     </div>
     <nav>
       <ul>
-        {% if user.is_authenticated %}
-            <li><a href="{% url 'cat-index' %}">All Cats</a></li>
-            <li><a href="{% url 'toy-index' %}">All Toys</a></li>
-            <li><a href="{% url 'cat-create' %}">Add a Cat</a></li>
-            <li><a href="{% url 'toy-create' %}">Add a Toy</a></li>
-            <li><a href="{% url 'about' %}">About</a></li>
-            <li><a href="{% url 'logout' %}">Log out</a></li>
-          {% else %}
-            <li><a href="{% url 'about' %}">About</a></li>
-            <li><a href="{% url 'home' %}">Login</a></li>
-            <li><a href="{% url 'signup' %}">Sign Up</a></li>
-          {% endif %}
+        <li><a href="/about">About</a></li>
       </ul>
     </nav>
   </header>
