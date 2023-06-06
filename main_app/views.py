@@ -21,3 +21,4 @@ def puppy_detail(request, puppy_id):
 class PuppyCreate(CreateView):
   model = Puppy
   fields = '__all__'
+  success_url = '/puppies/'
