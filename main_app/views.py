@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Puppy
 
 # Define the home view
@@ -21,4 +21,12 @@ def puppy_detail(request, puppy_id):
 class PuppyCreate(CreateView):
   model = Puppy
   fields = '__all__'
+  success_url = '/puppies/'
+
+class PuppyUpdate(UpdateView):
+  model = Puppy
+  fields = ['name', 'breed', 'description', 'age']
+
+class PuppyDelete(DeleteView):
+  model = Puppy
   success_url = '/puppies/'
