@@ -1,7 +1,5 @@
 from django.shortcuts import render
-
-# Add the following import
-from django.http import HttpResponse
+from .models import Puppy
 
 # Define the home view
 def home(request):
@@ -12,6 +10,7 @@ def about(request):
 
 # Add new view
 def puppy_index(request):
+  puppies = Puppy.objects.all()
   return render(request, 'puppies/index.html', { 'puppies': puppies })
 
 class Puppy:  
