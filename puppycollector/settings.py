@@ -121,7 +121,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
@@ -129,6 +128,9 @@ STATIC_URL = 'static/'
 
 #specify where successful logins should redirect to
 LOGIN_REDIRECT_URL = 'puppy-index'
+
+#specify where logging out redirects to
+LOGOUT_REDIRECT_URL = 'home'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
