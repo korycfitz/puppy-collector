@@ -15,16 +15,16 @@
 
 <section class="page-header">
   <h1>Puppy List</h1>
-  {% comment %} <img src="{% static 'images/cool-cat.svg' %}" alt="A cool cat" />
+  <img src="{% static 'images/cool-cat.svg' %}" alt="A cool cat" />
   <img src="{% static 'images/happy-cat.svg' %}" alt="A happy cat" />
   <img src="{% static 'images/teacup-cat.svg' %}" alt="A cat in a teacup" />
-  <img src="{% static 'images/cat-in-box.svg' %}" alt="A cat in a box" /> {% endcomment %}
+  <img src="{% static 'images/cat-in-box.svg' %}" alt="A cat in a box" />
 </section>
 
 <section class="card-container">
   {% for puppy in puppies %}
     <div class="card">
-      {% comment %} <a href="{% url 'puppy-detail' puppy.id %}">
+      <a href="{% url 'puppy-detail' puppy.id %}">
         <div class="card-content">
           <div class="card-img-container">
             <img 
@@ -38,7 +38,7 @@
           {% else %}
             <p>A {{ cat.breed }} kitten</p>
           {% endif %}
-          <p><small>{{ cat.description }}</small></p> {% endcomment %}
+          <p><small>{{ cat.description }}</small></p>
         </div>
       </a>
     </div>
