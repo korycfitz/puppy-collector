@@ -25,5 +25,5 @@ puppies = [
 ]
 
 # Add new view
-def Puppy_index(request):
+def puppy_index(request):
   return render(request, 'puppies/index.html', { 'puppies': puppies })
