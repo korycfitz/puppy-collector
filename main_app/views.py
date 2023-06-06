@@ -24,6 +24,11 @@ class PuppyCreate(CreateView):
   fields = '__all__'
   success_url = '/puppies/'
 
+  def form_valid(self, form):
+    # Assign the logged in user (self.request.user)
+    form.instance.user = self.request.user
+    return super().form_valid(form)
+
 class PuppyUpdate(UpdateView):
   model = Puppy
   fields = '__all__'
