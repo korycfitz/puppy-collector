@@ -25,7 +25,7 @@ class PuppyCreate(CreateView):
 
 class PuppyUpdate(UpdateView):
   model = Puppy
-  fields = ['name', 'breed', 'description', 'age']
+  fields = '__all__'
 
 class PuppyDelete(DeleteView):
   model = Puppy

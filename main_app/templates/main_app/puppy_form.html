@@ -6,9 +6,13 @@
 {% endblock %}
 
 {% block content %}
-
+  <!-- if there is a puppy display it's name -->
+  {% if puppy %}
+    <h1>Edit {{ puppy.name }}</h1>
+  {% else %}
+    <h1>Create a Puppy</h1>
+  {% endif %}
 <div class="page-header">
-  <h1>Create a Puppy</h1>
   <img src="{% static 'images/nerd-cat.svg' %}" alt="A cat using a computer"/>
 </div>
 {% comment %} 
