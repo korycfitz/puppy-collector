@@ -23,3 +23,7 @@ puppies = [
   Puppy('Bear', 'golden retriever', 'cute', 2),
   Puppy('Cooper', 'german shepherd', 'scary', 10)
 ]
+
+# Add new view
+def Puppy_index(request):
+  return render(request, 'puppies/index.html', { 'puppies': puppies })
