@@ -127,6 +127,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+#specify where successful logins should redirect to
+LOGIN_REDIRECT_URL = 'cat-index'
+
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
