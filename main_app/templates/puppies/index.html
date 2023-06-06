@@ -2,13 +2,11 @@
 {% load static %}
 
 {% block head %}
-
 <link 
-  rel="stylesheet" 
-  href="{% static 'css/puppies/puppy-index.css' %}"
+  rel="stylesheet"
   type="text/css"
->
-
+  href="{% static 'css/puppies/puppy-index.css' %}"
+/>
 {% endblock %}
 
 {% block content %}
@@ -24,23 +22,21 @@
 <section class="card-container">
   {% for puppy in puppies %}
     <div class="card">
-      <a href="{% url 'puppy-detail' puppy.id %}">
-        <div class="card-content">
-          <div class="card-img-container">
-            <img 
-              src="{% static 'images/sk8r-boi-cat.svg' %}" 
-              alt="A skater boy cat"
-            >
-          </div>
-          <h2 class="card-title">{{ cat.name }}</h2>
-          {% if cat.age > 0 %}
-            <p>A {{ cat.age }} year old {{ cat.breed }}</p>
-          {% else %}
-            <p>A {{ cat.breed }} kitten</p>
-          {% endif %}
-          <p><small>{{ cat.description }}</small></p>
+      <div class="card-content">
+        <div class="card-img-container">
+          <img 
+            src="{% static 'images/sk8r-boi-cat.svg' %}" 
+            alt="A skater boy cat"
+          >
         </div>
-      </a>
+        <h2 class="card-title">{{ puppy.name }}</h2>
+        {% if puppy.age > 0 %}
+          <p>A {{ puppy.age }} year old {{ puppy.breed }}</p>
+        {% else %}
+          <p>A {{ puppy.breed }} puppy.</p>
+        {% endif %}
+        <p><small>{{ puppy.description }}</small></p>
+      </div>
     </div>
   {% endfor %}
 </section>

@@ -10,6 +10,10 @@ def home(request):
 def about(request):
   return render(request, 'about.html')
 
+# Add new view
+def puppy_index(request):
+  return render(request, 'puppies/index.html', { 'puppies': puppies })
+
 class Puppy:  
   def __init__(self, name, breed, description, age):
     self.name = name
@@ -23,7 +27,3 @@ puppies = [
   Puppy('Bear', 'golden retriever', 'cute', 2),
   Puppy('Cooper', 'german shepherd', 'scary', 10)
 ]
-
-# Add new view
-def puppy_index(request):
-  return render(request, 'puppies/index.html', { 'puppies': puppies })
