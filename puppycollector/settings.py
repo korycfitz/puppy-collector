@@ -128,7 +128,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 #specify where successful logins should redirect to
-LOGIN_REDIRECT_URL = 'cat-index'
+LOGIN_REDIRECT_URL = 'puppy-index'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
