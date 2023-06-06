@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link 
+  rel="stylesheet" 
+  type="text/css" 
+  href="{% static 'css/puppies/puppy-detail.css' %}"
+/>
+{% endblock %}
+
+{% block content %}
+
+<section class="puppy-container">
+  <div class="puppy-img">
+    <img 
+      src="{% static 'images/sk8r-boi-cat.svg' %}" 
+      alt="A skater boy cat"
+    >
+  </div>
+  <div class="puppy-details">
+    <h1>{{ puppy.name }}</h1>
+    {% if puppy.age > 0 %}
+      <h2>A {{ puppy.age }} year old {{ puppy.breed }}</h2>
+    {% else %}
+      <h2>A {{ puppy.breed }} puppy.</h2>
+    {% endif %}
+    <p>{{ puppy.description }}</p>
+  </div>
+</section>
+
+{% endblock %}
