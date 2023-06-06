@@ -12,3 +12,7 @@ def about(request):
 def puppy_index(request):
   puppies = Puppy.objects.all()
   return render(request, 'puppies/index.html', { 'puppies': puppies })
+
+def puppy_detail(request, puppy_id):
+  puppy = Puppy.objects.get(id=puppy_id)
+  return render(request, 'puppies/detail.html', { 'puppy': puppy })
