@@ -34,9 +34,10 @@
           <li><a href="{% url 'about' %}">About</a></li> 
           <li><a href="{% url 'logout' %}">Logout</a></li>
         {% else %}
-          <li><a href="{% url 'puppy-index' %}">All Puppies</a></li>
-          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'signup' %}">Sign Up</a></li>
           <li><a href="{% url 'home' %}">Login</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'puppy-index' %}">All Puppies</a></li>
         {% endif %}
       </ul>
     </nav>
