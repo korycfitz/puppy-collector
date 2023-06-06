@@ -4,8 +4,8 @@ from django.contrib.auth.views import LoginView
 from .models import Puppy
 
 # Define the home view
-def home(request):
-  return render(request, 'home.html')
+class Home(LoginView):
+  template_name = 'home.html'
 
 def about(request):
   return render(request, 'about.html')
@@ -31,3 +31,4 @@ class PuppyUpdate(UpdateView):
 class PuppyDelete(DeleteView):
   model = Puppy
   success_url = '/puppies/'
+
