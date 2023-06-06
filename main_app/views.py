@@ -5,6 +5,21 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.auth.views import LoginView
 from .models import Puppy
 
+def signup(request):
+  error_message = ''
+  if request.method == 'POST': #create a 'user' form object that includes the data from the browser
+    form = UserCreationForm(request.POST)
+    if form.is_valid(): #add the user to the database
+      user = form.save() #log a user in
+      login(request, user)
+      return redirect('cat-index')
+    else:
+      error_message = 'Invalid sign up - try again'
+  form = UserCreationForm() #render signup.html with an empty form on error
+  context = {'form': form, 'error_message': error_message}
+  return render(request, 'signup.html', context)
+  # Same as: return render(request, 'signup.html', {'form': form, 'error_message': error_message})
+
 # Define the home view
 class Home(LoginView):
   template_name = 'home.html'
