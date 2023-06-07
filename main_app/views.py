@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.auth.views import LoginView
 from .models import Puppy
@@ -38,7 +39,7 @@ def puppy_detail(request, puppy_id):
   puppy = Puppy.objects.get(id=puppy_id)
   return render(request, 'puppies/detail.html', { 'puppy': puppy })
 
-class PuppyCreate(CreateView):
+class PuppyCreate(LoginRequiredMixin, CreateView):
   model = Puppy
   fields = ['name', 'breed', 'description', 'age']
   success_url = '/puppies/'
@@ -48,11 +49,11 @@ class PuppyCreate(CreateView):
     form.instance.user = self.request.user
     return super().form_valid(form)
 
-class PuppyUpdate(UpdateView):
+class PuppyUpdate(LoginRequiredMixin, UpdateView):
   model = Puppy
   fields = ['name', 'breed', 'description', 'age']
 
-class PuppyDelete(DeleteView):
+class PuppyDelete(LoginRequiredMixin, DeleteView):
   model = Puppy
   success_url = '/puppies/'
 
