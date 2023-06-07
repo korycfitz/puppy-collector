@@ -38,7 +38,7 @@ def puppy_detail(request, puppy_id):
 
 class PuppyCreate(CreateView):
   model = Puppy
-  fields = '__all__'
+  fields = ['name', 'breed', 'description', 'age']
   success_url = '/puppies/'
 
   def form_valid(self, form):
@@ -48,7 +48,7 @@ class PuppyCreate(CreateView):
 
 class PuppyUpdate(UpdateView):
   model = Puppy
-  fields = '__all__'
+  fields = ['name', 'breed', 'description', 'age']
 
 class PuppyDelete(DeleteView):
   model = Puppy
