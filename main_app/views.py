@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.decorators import login_required
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.auth.views import LoginView
 from .models import Puppy
@@ -27,11 +28,12 @@ class Home(LoginView):
 def about(request):
   return render(request, 'about.html')
 
-# Add new view
+@login_required
 def puppy_index(request):
   puppies = Puppy.objects.filter(user=request.user)
   return render(request, 'puppies/index.html', { 'puppies': puppies })
 
+@login_required
 def puppy_detail(request, puppy_id):
   puppy = Puppy.objects.get(id=puppy_id)
   return render(request, 'puppies/detail.html', { 'puppy': puppy })
