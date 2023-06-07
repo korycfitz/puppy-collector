@@ -29,6 +29,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'kfitzdogcollector.fly.dev']
+
 CSRF_TRUSTED_ORIGINS = ['https://kfitzdogcollector.fly.dev']
 
 # Application definition
@@ -125,6 +126,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+LOGIN_URL = 'home'
 
 #specify where successful logins should redirect to
 LOGIN_REDIRECT_URL = 'puppy-index'
