@@ -1,46 +1,53 @@
-# Project Title
+<div align="center">
+ <img height=300px src="./assets/christmas-ship.png" alt="Project logo"></a>
+</div>
 
-## Table of Contents
+<h3 align="center">Puppy Collector</h3>
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+---
 
-## About <a name = "about"></a>
+<p align="center"> Welcome to Puppy Collector. This is a Django app is similar to the Battleship board game but has some Christmas-styled twists to it.
+</p>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+## 🧐 About
 
-## Getting Started <a name = "getting_started"></a>
+I decided to build this because Battleship is one of the best pencil and paper games. In addition, Christmas is both the best holiday of the year and my middle name. As a result, this project was built to combine the two.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+## 🏁 Getting Started
+
+Visit https://battleship-kory-fitzgerald.netlify.app to play the game.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+Access to the internet is required.<br>
+The latest version of Google Chrome is recommended for the best user experience, but not required.
 
-```
-Give examples
-```
+## 🎈 Attributions
 
-### Installing
+- [The-Documentation-Compendium by Kyle Lobo](https://github.com/kylelobo/The-Documentation-Compendium) - README Format
+- [Google Fonts](https://fonts.google.com/) - Style
+- [Youtube](https://www.youtube.com/watch?v=prXLbPgnyA0) - Logo
+- [Flaticon](https://www.flaticon.com/) - Favicon
 
-A step by step series of examples that tell you how to get a development env running.
+## ⛏️ Technologies Used
 
-Say what the step will be
+- HTML - Structure
+- CSS - Style
+- JavaScript - User Interaction
+- [Nelify](https://app.netlify.com/) - Deployment
+- [Github](https://github.com/) - Version Control, Code Hosting
+- [Git](https://git-scm.com/) - Version Control and Source Code Management
+- [Visual Studio Code](https://code.visualstudio.com/) - Debugging, Version Control
 
-```
-Give the example
-```
+## 🚀 Icebox
 
-And repeat
+- Allow the user to drag ships onto the board instead of having the user click individual squares.
+- Iterate on the current styling.
+- Improve the logic for the computer's guesses.
+- Improve the logic for the computer's ship placement on the board.
+- Implement AI functionality to store the user's and the computer's guesses and to have the computer strategically place its ships.
 
-```
-until finished
-```
+## ✍️ Authors
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+- [@korycfitz](https://github.com/korycfitz) - Idea & work
+ 
