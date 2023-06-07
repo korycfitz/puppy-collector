@@ -29,7 +29,7 @@ def about(request):
 
 # Add new view
 def puppy_index(request):
-  puppies = Puppy.objects.all()
+  puppies = Puppy.objects.filter(user=request.user)
   return render(request, 'puppies/index.html', { 'puppies': puppies })
 
 def puppy_detail(request, puppy_id):
