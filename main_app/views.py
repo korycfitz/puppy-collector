@@ -14,7 +14,7 @@ def signup(request):
     if form.is_valid(): #add the user to the database
       user = form.save() #log a user in
       login(request, user)
-      return redirect('cat-index')
+      return redirect('puppy-index')
     else:
       error_message = 'Invalid sign up - try again'
   form = UserCreationForm() #render signup.html with an empty form on error
