@@ -13,12 +13,11 @@
     <h1>Create a Puppy</h1>
   {% endif %}
 <div class="page-header">
-  <img src="{% static 'images/nerd-cat.svg' %}" alt="A cat using a computer"/>
+  <img src="{% static 'images/tired-puppy.png' %}" alt="A tired puppy"/>
 </div>
-{% comment %} 
-  Leaving the action empty makes the form post to the same url used to display it
-{% endcomment %}
-<form action="" method="post" class="form-container">
+<form action="" method="post" class="form-container"> {% comment %} 
+  Post to same URL so leave empty
+  {% endcomment %}
   {% csrf_token %}
   <table>
     {{ form.as_table }}

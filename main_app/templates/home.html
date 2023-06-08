@@ -8,13 +8,13 @@
 {% block content %}
 
 <section class="logo-container">
+  <h1>Puppy Collector</h1>
   <div class="puppy-container">
-    <img src="{% static 'images/splash.svg' %}" alt="The Cat Collector Cat" />
+    <img 
+      src="{% static 'images/puppies.png' %}" 
+      alt="Puppy Collector"
+    />
   </div>
-  <img 
-    src="{% static 'images/logotype.svg' %}" 
-    alt="Text reads: Cat Collector"
-  />
 </section>
   {% if not user.is_authenticated %}
     <section>
