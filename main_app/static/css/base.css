@@ -184,6 +184,13 @@ div.card-img-container img {
   object-fit: cover;
 }
 
+section.page-header img {
+  width: 15%;
+  min-height: 24%;
+  /* min-height: 15%; */
+  height: 100px;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     position: sticky;
@@ -221,6 +228,11 @@ div.card-img-container img {
 
   .header-logo-container {
     width: 213px;
+  }
+
+  section.page-header img {
+    width: 15%;
+    min-height: 20%;
   }
 
   .page-header h1 {
