@@ -93,10 +93,23 @@ nav li {
   padding: 5px 8px;
 }
 
+header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  align-items: center;
+}
+
+main {
+  max-width: 1300px;
+  min-height: calc(100vh - 53px);
+}
+
+nav,
 .header-logo-container {
-  margin: auto;
-  padding: 10px 20px 0;
-  max-width: 500px;
+  margin: 10px 0;
+  padding: 0 15px;
 }
 
 .page-header {
@@ -228,7 +241,7 @@ nav li {
   }
   
   header {
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0 10px;
     width: calc(100vw - 40px);
     max-width: 1920px;
     top: 20px;
