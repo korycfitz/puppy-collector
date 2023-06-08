@@ -271,7 +271,6 @@ nav,
     /* visual fix to help align logo */
     padding-top: 6px;
     width: 256px;
-    height: 35px;
   }
 
   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
