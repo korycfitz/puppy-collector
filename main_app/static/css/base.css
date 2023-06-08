@@ -50,6 +50,7 @@ header {
   width: 100%;
   background: var(--nav-bg-ff); /* rgba(104, 197, 248, .9) */
   border-bottom: var(--borders);
+  
 }
 
 nav {
@@ -110,6 +111,11 @@ nav,
 .header-logo-container {
   margin: 10px 0;
   padding: 0 15px;
+}
+
+.header-logo-container img {
+  height: 100%;
+  width: 100%;
 }
 
 .page-header {
