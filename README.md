@@ -38,6 +38,8 @@ The latest version of Google Chrome is recommended for the best user experience,
 - [Github](https://github.com/) - Version Control, Code Hosting
 - [Git](https://git-scm.com/) - Version Control and Source Code Management
 - [Visual Studio Code](https://code.visualstudio.com/) - Debugging, Version Control
+- [Pixbay](https://pixabay.com/images/search/puppies/) - Images and Favicon
+
 
 ## 🚀 Icebox
 
