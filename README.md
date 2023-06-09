@@ -27,7 +27,6 @@ The latest version of Google Chrome is recommended for the best user experience,
 
 - [The-Documentation-Compendium by Kyle Lobo](https://github.com/kylelobo/The-Documentation-Compendium) - README Format
 - [Youtube](https://www.youtube.com/watch?v=prXLbPgnyA0) - Logo
-- [Flaticon](https://www.flaticon.com/) - Favicon
 - [Pixbay](https://pixabay.com/images/search/puppies/) - Images and Favicon
 
 ## ⛏️ Technologies Used
