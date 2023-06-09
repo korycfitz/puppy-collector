@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://kfitzdogcollector.fly.dev/" style="font-size: 30px;">Puppy Collector</a>
+  <a href="https://kfitzdogcollector.fly.dev/" style="font-size: 30px;">PuppyCollector</a>
 </div>
 <br>
 
 ![image](/main_app/static/images/puppy-collector-app.png)
 
 <p style="font-size: 20px; text-align: center;"><br>
-  Keep track of your puppies on Puppy Collector!
+  Keep track of your puppies on PuppyCollector!
 </p>
 
 ## 🧐 About
