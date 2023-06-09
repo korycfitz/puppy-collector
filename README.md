@@ -15,7 +15,7 @@ I decided to build this because Battleship is one of the best pencil and paper g
 
 ## 🏁 Getting Started
 
-Visit https://battleship-kory-fitzgerald.netlify.app to play the game.
+Visit [here](https://kfitzdogcollector.fly.dev/) to access the deployed application.
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ The latest version of Google Chrome is recommended for the best user experience,
 - Iterate on the current styling.
 - AAU, I want to be able to reset my password if I forget it, so that I can regain access to my account.
 - AAU, I want to be able to upload images, so that I can include the image as a property in the Puppy model.
-- AAU, I want to be able to click a link on the nav bar, so that I can view other user's puppies.
+- AAU, I want to be able to click a link tag on the navigation bar, so that I can view other user's puppies.
 
 ## ✍️ Authors
 
