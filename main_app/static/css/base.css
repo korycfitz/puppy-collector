@@ -191,6 +191,12 @@ section.page-header img {
   height: 100px;
 }
 
+#delete img {
+  margin-top: 5%;
+  width: 25%;
+  height: 25%;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     position: sticky;
