@@ -4,14 +4,10 @@
 
 <h3 align="center">Puppy Collector</h3>
 
----
-
-<p align="center"> Welcome to Puppy Collector. This is a Django app is similar to the Battleship board game but has some Christmas-styled twists to it.
-</p>
 
 ## 🧐 About
 
-I decided to build this because Battleship is one of the best pencil and paper games. In addition, Christmas is both the best holiday of the year and my middle name. As a result, this project was built to combine the two.
+  PuppyCollector is a full-stack Django application. Create, update, delete and read puppy cards using this modern reference application!
 
 ## 🏁 Getting Started
 
