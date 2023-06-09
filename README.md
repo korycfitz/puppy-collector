@@ -48,11 +48,10 @@ The latest version of Google Chrome is recommended for the best user experience,
 
 ## 🚀 Icebox
 
-- Allow the user to drag ships onto the board instead of having the user click individual squares.
 - Iterate on the current styling.
-- Improve the logic for the computer's guesses.
-- Improve the logic for the computer's ship placement on the board.
-- Implement AI functionality to store the user's and the computer's guesses and to have the computer strategically place its ships.
+- AAU, I want to be able to reset my password if I forget it, so that I can regain access to my account.
+- AAU, I want to be able to upload images, so that I can include the image as a property in the Puppy model.
+- AAU, I want to be able to click a link on the nav bar, so that I can view other user's puppies.
 
 ## ✍️ Authors
 
