@@ -3,13 +3,11 @@
 </div>
 <br>
 
-<div align="center">
-  <img height=300px src="./static/images/puppy-collector-application.png" alt="Project logo"></a>
-</div>
+![image](/main_app/static/images/puppy-collector-app.png)
 
 <p style="font-size: 20px; text-align: center;"><br>
   Keep track of your puppies on Puppy Collector!
-</p><br>
+</p>
 
 ## 🧐 About
 
