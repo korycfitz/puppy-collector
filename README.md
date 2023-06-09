@@ -11,7 +11,7 @@
 
 ## 🧐 About
 
-  PuppyCollector is a full-stack Django application. Create, update, delete and read puppy cards using this modern Django reference application!
+  PuppyCollector is a full-stack Django application. Create, update, delete, and read puppy cards using this modern Django reference application!
 
 ## 🏁 Getting Started
 
@@ -49,7 +49,7 @@ The latest version of Google Chrome is recommended for the best user experience,
 ## 🚀 Icebox
 
 - Iterate on the current styling.
-- AAU, I want to be able to reset my password if I forget it, so that I can regain access to my account.
+- AAU, I want to be able to reset my password if I forget it so that I can regain access to my account.
 - AAU, I want to be able to upload images, so that I can include the image as a property in the Puppy model.
 - AAU, I want to be able to click a link tag on the navigation bar, so that I can view other user's puppies.
 
