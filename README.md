@@ -1,13 +1,22 @@
-<div align="center">
- <img height=300px src="./assets/christmas-ship.png" alt="Project logo"></a>
+<div style="text-align: center;">
+  <a href="https://kfitzdogcollector.fly.dev/" style="font-size: 30px;">Puppy Collector</a>
 </div>
+<br>
+
+<div align="center">
+  <img height=300px src="./static/images/puppy-collector-application.png" alt="Project logo"></a>
+</div>
+
+<p style="font-size: 20px; text-align: center;"><br>
+  Keep track of your puppies on Puppy Collector!
+</p><br>
 
 <h3 align="center">Puppy Collector</h3>
 
 
 ## 🧐 About
 
-  PuppyCollector is a full-stack Django application. Create, update, delete and read puppy cards using this modern reference application!
+  PuppyCollector is a full-stack Django application. Create, update, delete and read puppy cards using this modern Django reference application!
 
 ## 🏁 Getting Started
 
