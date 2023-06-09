@@ -19,7 +19,8 @@ Visit [here](https://kfitzdogcollector.fly.dev/) to access the deployed applicat
 
 ### Prerequisites
 
-Access to the internet is required.<br>
+Access to the internet is required.
+
 The latest version of Google Chrome is recommended for the best user experience, but not required.
 
 ## 🎈 Attributions
