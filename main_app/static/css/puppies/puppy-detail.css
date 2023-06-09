@@ -26,7 +26,6 @@
 
 .puppy-details h2 {
   font-size: var(--font-xl);
-  margin: 0 0 10px;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -34,19 +33,4 @@
 .puppy-details p {
   font-size: var(--font-reg);
   margin: 5px 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .puppy-container {
-    padding: 35px 30px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-  }
-
-  .puppy-img {
-    width: 25%;
-    max-width: 250px;
-    margin-right: 25px;
-  }
 }
