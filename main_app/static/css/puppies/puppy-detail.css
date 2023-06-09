@@ -26,11 +26,11 @@
 
 .puppy-details h2 {
   font-size: var(--font-xl);
-  margin-top: 0;
+  margin-top: auto;
   margin-bottom: 10px;
 }
 
 .puppy-details p {
   font-size: var(--font-reg);
-  margin: 5px 0;
+  margin: 5px auto;
 }
