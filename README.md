@@ -25,21 +25,26 @@ The latest version of Google Chrome is recommended for the best user experience,
 ## 🎈 Attributions
 
 - [The-Documentation-Compendium by Kyle Lobo](https://github.com/kylelobo/The-Documentation-Compendium) - README Format
-- [Google Fonts](https://fonts.google.com/) - Style
 - [Youtube](https://www.youtube.com/watch?v=prXLbPgnyA0) - Logo
 - [Flaticon](https://www.flaticon.com/) - Favicon
+- [Pixbay](https://pixabay.com/images/search/puppies/) - Images and Favicon
 
 ## ⛏️ Technologies Used
 
-- HTML - Structure
-- CSS - Style
-- JavaScript - User Interaction
-- [Nelify](https://app.netlify.com/) - Deployment
+- [Fly.io](https://fly.io/) - Deployment
+- [Bit.io](https://bit.io/) - Database
 - [Github](https://github.com/) - Version Control, Code Hosting
 - [Git](https://git-scm.com/) - Version Control and Source Code Management
 - [Visual Studio Code](https://code.visualstudio.com/) - Debugging, Version Control
-- [Pixbay](https://pixabay.com/images/search/puppies/) - Images and Favicon
-
+- Python3
+- Django
+- Psycopg2
+- Gunicorn
+- Whitenoise
+- Dockerfile
+- HTML - Structure
+- CSS - Style
+- JavaScript - User Interaction
 
 ## 🚀 Icebox
 
