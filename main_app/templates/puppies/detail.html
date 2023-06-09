@@ -12,14 +12,14 @@
 {% block content %}
 
 <section class="puppy-container">
-  <div class="puppy-img">
-    <img 
-      src="{% static 'images/swimming-puppy.png' %}" 
-      alt="A swimming puppy"
-    >
-  </div>
   <div class="puppy-details">
     <h1>{{ puppy.name }}</h1>
+    <div class="puppy-img">
+      <img 
+        src="{% static 'images/swimming-puppy.png' %}" 
+        alt="A swimming puppy"
+      >
+    </div>
     {% if puppy.age > 0 %}
       <h2>A {{ puppy.age }} year old {{ puppy.breed }}</h2>
     {% else %}
