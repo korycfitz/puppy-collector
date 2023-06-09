@@ -120,7 +120,7 @@ nav,
 .page-header {
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: 15px;
 }
 
 .btn {
@@ -167,7 +167,6 @@ nav,
 }
 
 .page-header img {
-  height: 40px;
   margin-left:15px;
 }
 
@@ -187,7 +186,6 @@ div.card-img-container img {
 section.page-header img {
   width: 15%;
   min-height: 24%;
-  /* min-height: 15%; */
   height: 100px;
 }
 
