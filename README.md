@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
   <a href="https://kfitzdogcollector.fly.dev/" style="font-size: 30px;">Puppy Collector</a>
 </div>
 <br>
@@ -10,9 +10,6 @@
 <p style="font-size: 20px; text-align: center;"><br>
   Keep track of your puppies on Puppy Collector!
 </p><br>
-
-<h3 align="center">Puppy Collector</h3>
-
 
 ## 🧐 About
 
