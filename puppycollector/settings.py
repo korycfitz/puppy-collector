@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import environ
 import os
+
 env = environ.Env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -83,11 +84,11 @@ WSGI_APPLICATION = 'puppycollector.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DATABASE'),
-        'USER': env('SUPABASE_USER'),
-        'PASSWORD': env('PASSWORD'),
-        'HOST': env('HOST'),
-        'PORT': env('PORT')
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'PuppyCollector12354',
+        'HOST': 'db.mkrahqxftgpslobgdwtl.supabase.co',
+        'PORT': '5432',
     }
 }
 
